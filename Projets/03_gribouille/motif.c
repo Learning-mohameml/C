@@ -16,16 +16,13 @@ void init_motif(struct motif *M, couleur BG)
 {
 }
 
-
 void detruire_motif(struct motif *M)
 {
 }
 
-
 void tracer_droite(struct motif *M, struct droite *D)
 {
 }
-
 
 void tracer_cercle(struct motif *M, struct cercle *arc)
 {
@@ -43,7 +40,6 @@ struct motif *importer_PPM(const char *path)
 {
     return NULL;
 }
-
 
 void remplir(struct motif *M, struct point *P, couleur coul)
 {
